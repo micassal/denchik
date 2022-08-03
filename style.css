@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+html {
+  font-size: 0.0500vw;
+}
+
+a {
+  text-decoration: none;
+  color: #F0F0F1;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  font-style: normal;
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+.header
+{
+    background-color: rgb(43, 177, 60);
+    padding: 20rem 0;
+}
+
+
+.header__sub
+{
+    max-width: 1200rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 130rem 900rem 200rem;
+    grid-column-gap: 50rem;
+}
+
+.header__sub img
+{
+    max-width: 128rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav
+{
+    display: grid;
+    grid-template-columns: repeat(4, 120rem);
+    grid-column-gap: 100rem;
+}
+
+.nav a
+{
+    font-size: 20rem;
+    color: #F0F0F1;
+    font-weight: 600rem;
+    text-decoration: none;  
+    display: flex;
+    align-items: center; 
+    text-transform: uppercase;   
+}
+
+.sign-up
+{
+    background-color: rgb(14, 124, 14);
+    max-width: 200rem;
+    padding: 15rem 0;
+    border-radius: 12rem;
+}
+
+.sign-up:hover
+{
+    background-color: rgb(1, 63, 1);
+    transition: 1s;
+}
+
+.sign-up p:hover
+{
+    transition: 1s;
+    color: rgb(43, 177, 60);
+}
+
+.sign-up p
+{
+    font-size: 20rem;
+    padding-left: 30%;
+    color: #F0F0F1;
+}
+
+.button a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav a:hover
+{
+    transition: 1s;
+    color: black;
+    
+}
+
+.slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    max-width: 800rem;
+    /* padding: 0 180px; */
+}
+
+.slide-content h3 
+{
+    font-size: 60rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(43, 177, 60);
+}
+
+ .slide-content p
+ {
+    color: black;
+ }
+
+ .slide-content span
+{
+    color: black;
+}
+
+.mid__cont__1
+{
+    margin-top: 80rem;
+    padding-bottom: 50rem;
+}
+
+.mid__cont__1__sub
+{
+    max-width: 1100rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 60rem;
+}
+
+.mid__cont__1__sub img
+{
+    max-width: 500rem;
+}
+
+.mid__cont__block
+{
+    padding-top: 30rem;
+}
+
+
+.mid__cont__block h2
+{
+    font-size: 35rem;
+    font-weight: bold;
+    padding-bottom: 40rem;
+    text-transform: uppercase;
+
+}
+
+span 
+{
+   color: rgb(43, 177, 60); 
+}
+
+.mid__cont__2
+{
+    background-color: #f0f0f0;
+    padding-top: 100rem;
+}
+
+
+.mid__cont__2__sub
+{
+    max-width: 1200rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 250rem;
+    padding-bottom: 100rem;
+}
+
+
+.mid__cont__block p
+{
+    font-size: 20rem;
+    max-width: 450rem;
+}
+
+.col__cont1 img
+{
+   max-width: 30rem; 
+   padding-right: 10rem;
+   height: 30rem;
+}
+
+.col__cont1 p
+{
+    font-size: 20rem;
+}
+
+.col__cont h2
+{
+    font-size: 35rem;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 20rem;
+}
+
+.col__cont1
+{
+    display: grid;
+    grid-template-columns: 30rem 1fr;
+    grid-gap: 10rem 10rem;
+}
+
+.mid__cont__2__sub img
+{
+    max-width: 500rem;
+}
+
+
+
+.card__cont__sub
+{
+    max-width: 1200rem;
+    margin: auto;
+}
+
+.card__cont
+{
+    padding-top: 100rem;
+    text-transform: uppercase;
+}
+
+.card__cont__sub h2
+{
+    font-size: 35rem;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 50rem;
+    text-align: center;
+}
+
+.card__block img
+{
+    width: 322rem;
+    padding-bottom: 15rem;
+}
+
+.card__block
+{
+    border: 1rem solid grey;
+    text-align: center;
+    max-width: 325rem;
+}
+
+
+.card__block p
+{
+    font-size: 20rem;
+    padding: 20rem 0;
+    font-weight: bold;
+}
+
+.buttons
+{
+    background-color: rgb(19, 77, 184);
+    font-size: 20rem;
+    color: #f0f0f0;
+    max-width: 200rem;
+    margin: auto;
+    padding: 10rem 0 ;
+}
+
+.buttons:hover
+{
+    background-color: rgb(9, 35, 75);
+    transition: 1s;
+    color: #ffffff;
+}
+
+.buttons2
+{
+    background-color: rgb(19, 77, 184);
+    font-size: 20rem;
+    color: #f0f0f0;
+    max-width: 200rem;
+    margin: auto;
+    padding: 10rem 0 ;
+}
+
+.buttons2:hover
+{
+    background-color: rgb(9, 35, 75);
+    transition: 1s;
+    color: #ffffff;
+}
+
+
+.card__content
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30rem 30rem;
+}
